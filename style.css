@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('gym1.jpg') no-repeat center center/cover;
+}
+.navbar{
+    display: flex;
+    /* background-color: cyan; */
+}
+.navbar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 400px;
+}
+.navbar ul li{
+    list-style: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    padding: 0 10px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+.navbar ul li a:hover{
+    color: blueviolet;
+}
+.navbar li a.active {
+    text-decoration: underline;
+    color: grey;
+
+}
+.logo{
+    margin-left: 5px;
+}
+.logo img{
+    width: 70px;
+    height: 70px;
+    filter: invert(1);
+}
+.button{
+    margin-left: 330px;
+}
+.btn{
+    width: 80px;
+    height: 30px;
+    margin-top: 22px;
+    background-color: black;
+    color: white;
+    outline: none;
+    border: 2px solid blueviolet;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+}
+.btn:hover{
+    color: black;
+    background-color: white;
+}
+.container {
+    border: 2px solid white;
+    margin: 106px 80px;
+    padding: 75px;
+    width: 50%;
+    border-radius: 28px;
+}
+
+.form-group input {
+    font-family: 'Baloo Bhai', cursive;
+    text-align: center;
+    display: block;
+    width: 400px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 15px;
+    border-radius: 8px;
+}
+
+.container h1 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container button {
+    display: block;
+    width: 15%;
+    margin: 20px auto;
+}
+.btn1{
+    padding: 5px 5px;
+    background-color: black;
+    color: white;
+    outline: none;
+    border: 2px solid blueviolet;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn1:hover{
+    color: black;
+    background-color: white;
+}
